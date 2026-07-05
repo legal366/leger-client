@@ -11,7 +11,7 @@ function App() {
     <Routes>
       <Route path="/login" element={<Login />} />
       <Route
-        path="/admin"
+        path="/geee"
         element={
           <ProtectedRoute role="admin">
             <AdminDashboard />
@@ -19,7 +19,7 @@ function App() {
         }
       />
       <Route
-        path="/admin/users/:id"
+        path="/geee/users/:id"
         element={
           <ProtectedRoute role="admin">
             <AdminUserEdit />

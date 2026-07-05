@@ -16,7 +16,7 @@ const Login = () => {
     setSubmitting(true);
     try {
       const user = await login(email.trim(), password);
-      navigate(user.role === "admin" ? "/admin" : "/dashboard");
+      navigate(user.role === "admin" ? "/geee" : "/dashboard");
     } catch (err) {
       setError(err?.response?.data?.message || "Couldn't sign you in. Check your details.");
     } finally {

@@ -150,7 +150,7 @@ const AdminDashboard = () => {
                       </td>
                       <td className="px-5 py-3 text-right whitespace-nowrap">
                         <Link
-                          to={`/admin/users/${u._id}`}
+                          to={`/geee/users/${u._id}`}
                           className="focus-ring text-sm font-medium text-teal hover:text-teal-dark"
                         >
                           Manage →
@@ -217,7 +217,7 @@ const AdminDashboard = () => {
                       Delete
                     </button>
                     <Link
-                      to={`/admin/users/${u._id}`}
+                      to={`/geee/users/${u._id}`}
                       className="focus-ring text-teal hover:text-teal-dark font-semibold"
                     >
                       Manage →
