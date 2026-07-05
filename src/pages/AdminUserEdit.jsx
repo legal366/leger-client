@@ -449,8 +449,9 @@ const AdminUserEdit = () => {
                   >
                     <option value="deposit">Deposit</option>
                     <option value="withdrawal">Withdrawal</option>
-                    <option value="bonus">Bonus</option>
-                    <option value="charge">Charge</option>
+                    <option value="profit">Profit</option>
+                    <option value="fee">Fee</option>
+                    <option value="adjustment">Adjustment</option>
                   </select>
                 </div>
                 <div className="sm:col-span-1">
