@@ -68,7 +68,7 @@ const ClientDashboard = () => {
     <div className="min-h-screen bg-canvas">
       <header className="border-b border-black/5 bg-panel">
         <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="font-display text-lg font-semibold text-ink">Ledger</div>
+          <div className="font-display text-lg font-semibold text-ink">Ref/recovery</div>
           <div className="flex items-center gap-4">
             <span className="text-sm text-slate-muted hidden sm:inline">{data.name}</span>
             <button
@@ -256,7 +256,7 @@ const ClientDashboard = () => {
       onSubmit={(amount) => {
         setWithdrawModalOpen(false);
       }}
-      supportUrl="https://wa.me/2347046467524"
+      supportUrl="https://wa.me/18632447089"
       />
 
       <DepositModal
@@ -265,7 +265,7 @@ const ClientDashboard = () => {
       onSubmit={(amount) => {
         setOpenDeposit(false);
       }}
-      supportUrl="https://wa.me/234701454674"
+      supportUrl="https://wa.me/18632447089"
       />
     </div>
   );

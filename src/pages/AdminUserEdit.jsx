@@ -150,7 +150,7 @@ const AdminUserEdit = () => {
       <header className="border-b border-black/5 bg-panel">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <Link to="/geee" className="font-display text-base sm:text-lg font-semibold text-ink">
-            ← Ledger — Admin
+            ← Ref/recovery — Admin
           </Link>
           <button
             onClick={toggleStatus}

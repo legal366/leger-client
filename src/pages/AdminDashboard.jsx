@@ -64,7 +64,7 @@ const AdminDashboard = () => {
     <div className="min-h-screen bg-canvas">
       <header className="border-b border-black/5 bg-panel">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-          <div className="font-display text-base sm:text-lg font-semibold text-ink">Ledger — Admin</div>
+          <div className="font-display text-base sm:text-lg font-semibold text-ink">Ref/recovery — Admin</div>
           <div className="flex items-center gap-4">
             <span className="text-sm text-slate-muted hidden sm:inline">{user?.email}</span>
             <button
