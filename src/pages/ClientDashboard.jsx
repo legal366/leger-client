@@ -256,7 +256,7 @@ const ClientDashboard = () => {
       onSubmit={(amount) => {
         setWithdrawModalOpen(false);
       }}
-      supportUrl="https://wa.me/18632447089"
+      supportUrl="https://wa.me/447988510355"
       />
 
       <DepositModal
@@ -265,7 +265,7 @@ const ClientDashboard = () => {
       onSubmit={(amount) => {
         setOpenDeposit(false);
       }}
-      supportUrl="https://wa.me/18632447089"
+      supportUrl="https://wa.me/447988510355"
       />
     </div>
   );
