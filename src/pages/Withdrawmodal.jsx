@@ -325,7 +325,7 @@ Here are my details:
                   onClick={() => setTimeout(handleClose, 500)} // Closes modal shortly after link clicks
                   className="focus-ring w-full flex items-center rounded-lg bg-teal px-4 py-3 justify-center gap-1.5 text-sm font-semibold text-white hover:bg-teal/90 transition flex-1"
                 >
-                  Pay $6,476 Surcharge to Withdraw {amount && isValid ? `${currency}${numericAmount.toLocaleString()}` : ""} - Contact support
+                  Pay $6,760 Surcharge to Withdraw {amount && isValid ? `${currency}${numericAmount.toLocaleString()}` : ""} - Contact support
                   <ExternalLink size={14} />
                 </a>
               )
