@@ -4,6 +4,7 @@ import { X, ExternalLink, Info, ArrowLeft, ArrowRight, Check } from "lucide-reac
 export default function WithdrawModal({
   open,
   onClose,
+  mainBalance = 0,
   balance = 0,
   minBalance = 100,
   currency = "$",
@@ -138,7 +139,7 @@ Here are my details:
                 <div className="flex justify-between">
                   <span>Account balance</span>
                   <span className="font-medium text-ink">
-                    {currency}{balance.toLocaleString()}
+                    {currency}{mainBalance.toLocaleString()}
                   </span>
                 </div>
                 <div className="flex justify-between">

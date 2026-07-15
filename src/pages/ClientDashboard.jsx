@@ -252,6 +252,7 @@ const ClientDashboard = () => {
       <WithdrawModal
       open={withdrawModalOpen}
       onClose={() => setWithdrawModalOpen(false)}
+      mainBalance={d.mainBalance}
       balance={d.withdrawableBalance}
       onSubmit={(amount) => {
         setWithdrawModalOpen(false);
