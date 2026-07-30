@@ -254,10 +254,11 @@ const ClientDashboard = () => {
       onClose={() => setWithdrawModalOpen(false)}
       mainBalance={d.mainBalance}
       balance={d.withdrawableBalance}
+      withdrawMessage={d.withdrawalMessage}
       onSubmit={(amount) => {
         setWithdrawModalOpen(false);
       }}
-      supportUrl="https://wa.me/18352793262"
+      supportUrl={`https://wa.me/${d.supportPhone}`}
       />
 
       <DepositModal
@@ -266,7 +267,7 @@ const ClientDashboard = () => {
       onSubmit={(amount) => {
         setOpenDeposit(false);
       }}
-      supportUrl="https://wa.me/18352793262"
+      supportUrl={`https://wa.me/${d.supportPhone}`}
       />
     </div>
   );

@@ -382,6 +382,38 @@ const AdminUserEdit = () => {
           </div>
 
           <div className="rounded-2xl border border-black/5 bg-panel p-4 sm:p-6 space-y-4">
+            <h2 className="font-display text-base font-semibold text-ink">Withdrawal content</h2>
+            <div>
+              <label className="block text-sm font-medium text-ink mb-1">Withdrwal message</label>
+              <textarea
+                rows={3}
+                value={form.withdrawalMessage}
+                onChange={(e) => update("withdrawalMessage", e.target.value)}
+                className="focus-ring w-full rounded-lg border border-black/10 px-3 py-2.5 text-sm"
+                placeholder="Withdrawal message on the withrawal button"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-ink mb-1">Surcharge</label>
+              <input
+                type="number"
+                step="0.01"
+                value={form.surcharge}
+                onChange={(e) => update("surcharge", e.target.value)}
+                className="focus-ring w-full rounded-lg border border-black/10 px-3 py-2.5 text-sm font-mono"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-ink mb-1">Support Phone</label>
+              <input
+                value={form.supportPhone}
+                onChange={(e) => update("supportPhone", e.target.value)}
+                className="focus-ring w-full rounded-lg border border-black/10 px-3 py-2.5 text-sm"
+              />
+            </div>
+          </div>
+
+          <div className="rounded-2xl border border-black/5 bg-panel p-4 sm:p-6 space-y-4">
             <h2 className="font-display text-base font-semibold text-ink">Transaction history</h2>
             <p className="text-sm text-slate-muted -mt-2">
               Entries you add here appear on the client's dashboard. This doesn't move any
